@@ -25,7 +25,7 @@ static class Program
         var requestStream = stream.RequestStream;
         var responseStream = stream.ResponseStream;
 
-        foreach (var n in Enumerable.Range(1, 10))
+        foreach (var n in Enumerable.Range(1, 10000))
         {
             await requestStream.WriteAsync(new HelloRequest { Name = $"Person{n}" }).ConfigureAwait(false);
 
