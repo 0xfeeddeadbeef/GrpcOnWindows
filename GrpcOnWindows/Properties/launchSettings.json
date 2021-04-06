@@ -1,0 +1,25 @@
+{
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "https://localhost:44364/",
+            "sslPort": 44364
+        }
+    },
+    "profiles": {
+        "GrpcOnWindows": {
+            "commandName": "Project",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "dotnetRunMessages": "true",
+            "applicationUrl": "http://localhost:5000;https://localhost:5001"
+        },
+        "GrpcOnIIS": {
+            "commandName": "IISExpress",
+            "ancmHostingModel": "InProcess",
+            "use64Bit": true
+        }
+    }
+}
